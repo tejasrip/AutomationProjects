@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.25">
+<file name="D:\android-appium-tests\src\main\java\com\app\pages\BasePage.java">
+<error line="9" column="28" severity="error" message="Variable &apos;driver&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="15" column="39" severity="error" message="Parameter ele should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\android-appium-tests\src\main\java\com\app\pages\LoginPage.java">
+<error line="48" column="5" severity="error" message="Class &apos;LoginPage&apos; looks like designed for extension (can be subclassed), but the method &apos;validateHomePageElements&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;LoginPage&apos; final or making the method &apos;validateHomePageElements&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="52" column="5" severity="error" message="Class &apos;LoginPage&apos; looks like designed for extension (can be subclassed), but the method &apos;isOperatingRoomDrpdwnDisplayed&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;LoginPage&apos; final or making the method &apos;isOperatingRoomDrpdwnDisplayed&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="56" column="5" severity="error" message="Class &apos;LoginPage&apos; looks like designed for extension (can be subclassed), but the method &apos;clickOperatingRoom&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;LoginPage&apos; final or making the method &apos;clickOperatingRoom&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="60" column="5" severity="error" message="Class &apos;LoginPage&apos; looks like designed for extension (can be subclassed), but the method &apos;selectOperatingRoom&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;LoginPage&apos; final or making the method &apos;selectOperatingRoom&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="60" column="37" severity="error" message="Parameter operatingRoomName should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="60" column="44" severity="error" message="&apos;operatingRoomName&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\android-appium-tests\src\main\java\com\framework\appium\Driver.java">
+</file>
+<file name="D:\android-appium-tests\src\main\java\com\framework\appium\DriverFactory.java">
+<error line="16" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="22" column="32" severity="error" message="Variable &apos;driver&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="71" column="46" severity="error" message="Parameter osType should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\android-appium-tests\src\main\java\com\framework\appium\MobileAndroidDriver.java">
+<error line="6" column="5" severity="error" message="Class &apos;MobileAndroidDriver&apos; looks like designed for extension (can be subclassed), but the method &apos;driver&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MobileAndroidDriver&apos; final or making the method &apos;driver&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="D:\android-appium-tests\src\main\java\com\framework\appium\MobileIosDriver.java">
+<error line="6" column="5" severity="error" message="Class &apos;MobileIosDriver&apos; looks like designed for extension (can be subclassed), but the method &apos;driver&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MobileIosDriver&apos; final or making the method &apos;driver&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="D:\android-appium-tests\src\main\java\com\utils\PropertyUtils.java">
+<error line="26" column="33" severity="error" message="Parameter filename should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="38" column="38" severity="error" message="Parameter key should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="42" column="38" severity="error" message="Parameter key should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+</checkstyle>
